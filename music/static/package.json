@@ -1,0 +1,40 @@
+{
+  "name": "music",
+  "version": "1.0.0",
+  "description": "Web Apps Music Player with Django & Vue",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "bootstrap": "^5.0.0-alpha1",
+    "vue": "^2.6.12",
+    "vue-router": "^3.4.4",
+    "vuex": "^3.5.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^4.3.0",
+    "sass": "^1.26.11",
+    "sass-loader": "^10.0.2",
+    "style-loader": "^1.2.1",
+    "vue-loader": "^15.9.3",
+    "vue-template-compiler": "^2.6.12",
+    "webpack": "^4.44.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ferdiansyah0611/music.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ferdiansyah0611/music/issues"
+  },
+  "homepage": "https://github.com/ferdiansyah0611/music#readme"
+}
